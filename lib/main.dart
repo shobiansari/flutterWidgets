@@ -1,4 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'package:project/loginScreen.dart';
 import 'package:project/wellcomeScreen.dart';
 
 void main() {
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WellcomeScreen(),
+      home: Loginscreen(),
     );
   }
 }

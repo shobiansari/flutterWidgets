@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project/customTextField.dart';
+import 'package:project/custominkwell.dart';
 
 class loginscreen extends StatelessWidget {
   const loginscreen({super.key});
@@ -57,22 +58,28 @@ class loginscreen extends StatelessWidget {
                 print(emailcontroller.text.trim());
               },
               child: Text("Login")),
-  //  InkWell(
-  //           onTap: () {
-  //             print(emailcontroller.text.trim());
-  //             print(passcontroller.text.trim());
-  //           },
-  //           child: Container(
-  //             height: 50,
-  //             width: double.infinity,
-  //             decoration: BoxDecoration(
-  //                 color: Colors.red, borderRadius: BorderRadius.circular(20)),
-  //             child: Center(
-  //               child: Text("log in"),
-  //             ),
-  //           ),
-  //         )       
-Custominkwell(ontap:)
+          //  InkWell(
+          //           onTap: () {
+          //             print(emailcontroller.text.trim());
+          //             print(passcontroller.text.trim());
+          //           },
+          //           child: Container(
+          //             height: 50,
+          //             width: double.infinity,
+          //             decoration: BoxDecoration(
+          //                 color: Colors.red, borderRadius: BorderRadius.circular(20)),
+          //             child: Center(
+          //               child: Text("log in"),
+          //             ),
+          //           ),
+          //         )
+          Custominkwell(
+            ontap: () {
+              print(emailcontroller.text.trim());
+              print(passcontroller.text.trim());
+            },
+            text: 'Login',
+          )
         ]),
       ),
     );

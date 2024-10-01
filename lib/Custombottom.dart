@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class Custominkwell extends StatelessWidget {
+class Custombottom extends StatelessWidget {
   final VoidCallback ontap;
   final String text;
-  const Custominkwell({super.key, required this.ontap, required this.text});
+  const Custombottom({super.key, required this.ontap, required this.text});
 
   @override
   Widget build(BuildContext context) {
